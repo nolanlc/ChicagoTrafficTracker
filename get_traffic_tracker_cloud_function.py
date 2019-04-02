@@ -1,19 +1,3 @@
-########################################################
-#
-# get_traffic_tracker_data 
-#
-# This Cloud Function subscribes to a Pub/Sub topic.
-# When triggered by Pub/Sub, it will use API to retrieve
-# traffic data from Chicago Traffic Data Portal and upload
-# data to Cloud Storage as a string containing list of dictionary
-# objects.  Each dictionary contains a traffic segment
-# For more detials goto:
-#   https://data.cityofchicago.org/Transportation/Chicago-Traffic-Tracker-Congestion-Estimates-by-Se/n4j6-wkkf
-#
-# Add to requirements.txt:
-#   google-cloud-storage
-#
-##########################################################
 
 ########################################################
 #
